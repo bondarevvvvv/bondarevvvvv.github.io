@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html,body{
+    overflow-x: hidden;
+    }
+body{
+    /* background: linear-gradient(90deg, #0108cb 0%, #000000 99%, #ffffff 110%); */
+    background: linear-gradient(90deg, #f2f2f2 0%,#f2f2f2 33%,  #0d01f9 33%, #000dff 66%, #ee0000 66%, #f20505 100%);
+    font-family: Montserrat, serif;
+    
+}
+p {
+    color: aquamarine;
+}
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(164, 164, 164);
+}
+.navbar-brand img{
+    width: 40px;
+
+}
+.navbar-toggler {
+    background-color: rgb(69, 68, 68);
+}
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #010698 0%, #000000 99%, #ffffff 120%);
+}
+.card {
+    background: linear-gradient(270deg, #010698 0%, #000000 99%, #ffffff 110%);
+    color: aquamarine;
+
+}
+.card a{
+    text-decoration: none;
+    color: aquamarine;
+
+}
+.card{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slide-text,
+.footer-text{
+    color: aquamarine;
+    margin: auto auto;
+}
+footer,
+.btn-primary
+ {
+    background: linear-gradient(270deg, #010698 0%, #000000 99%, #ffffff 120%);
+    padding: 15px;
+
+    
+
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-anim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+.infaaa{
+    margin-top: 25px;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
